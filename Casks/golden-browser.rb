@@ -1,23 +1,4 @@
 cask "golden-browser" do
-  # ===========================================================================
-  # PLACEHOLDER CASK — NOT INSTALLABLE YET
-  #
-  # Golden Browser has not had its first public release, so there is no
-  # artefact behind `url` and no real checksum for `sha256`. The `sha256`
-  # below is a deliberate all-zeros placeholder, so a `brew install --cask`
-  # attempt fails fast on a download/checksum error instead of installing
-  # something unverified.
-  #
-  # Do NOT use `sha256 :no_check` here: the docs reserve it for casks whose
-  # `url` is stable across releases, and ours is versioned, so it would
-  # silently accept whatever bytes the URL happens to serve.
-  #
-  # TODO(first release): after the release is published, update all three of
-  #   1. `version` — marketing version + build number (see note below),
-  #   2. `sha256`  — `shasum -a 256 golden-browser-<version>-macos.zip`,
-  #   3. the `livecheck` block — uncomment and confirm it resolves.
-  # ===========================================================================
-
   # Two-part version, comma-joined so `version.csv` can split it. The comma
   # form is required because the release tag and the artefact filename need
   # different pieces:
@@ -35,9 +16,8 @@ cask "golden-browser" do
   desc "Reviewer for Flutter golden test images across git history"
   homepage "https://goldenbrowser.app/"
 
-  # TODO(first release): the tag only carries the marketing version, so the
-  # run-number half of `version` cannot be recovered from the tag alone.
-  # Match the asset filename instead, then verify with `brew livecheck`.
+  # Not enabled yet: the tag carries only the marketing version, so the
+  # run-number half has to be matched off the asset filename instead.
   # livecheck do
   #   url :url
   #   strategy :github_latest do |json, regex|
