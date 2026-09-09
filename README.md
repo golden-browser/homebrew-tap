@@ -16,6 +16,14 @@ brew tap golden-browser/tap
 brew install --cask golden-browser
 ```
 
+On Homebrew 6.0 or newer you also need to trust the tap once — third-party
+taps are no longer evaluated without explicit trust, and `brew tap` fails with
+`invalid syntax in tap!` until you grant it:
+
+```sh
+brew trust golden-browser/tap
+```
+
 Homebrew pulls in [`odiff`](https://github.com/dmtrKovalenko/odiff) automatically
 — Golden Browser delegates pixel diffing to it, so no separate install step.
 
@@ -85,6 +93,9 @@ For each release:
   land somewhere the cask cannot reach.
 - The cask's `livecheck` block is commented out until a real release exists to
   validate the regex against.
+- `brew audit --cask --new` cannot pass until the first release is published —
+  it downloads and extracts the artefact, so it currently stops at a 404.
+  `brew style` does pass.
 
 ## Licence
 

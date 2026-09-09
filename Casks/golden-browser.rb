@@ -30,8 +30,7 @@ cask "golden-browser" do
   version "0.3.0,1"
   sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
-  url "https://github.com/golden-browser/homebrew-tap/releases/download/v#{version.csv.first}/golden-browser-#{version.csv.first}+#{version.csv.second}-macos.zip",
-      verified: "github.com/golden-browser/homebrew-tap/"
+  url "https://github.com/golden-browser/homebrew-tap/releases/download/v#{version.csv.first}/golden-browser-#{version.csv.first}+#{version.csv.second}-macos.zip"
   name "Golden Browser"
   desc "Reviewer for Flutter golden test images across git history"
   homepage "https://goldenbrowser.app/"
