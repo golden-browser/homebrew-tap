@@ -8,8 +8,8 @@ cask "golden-browser" do
   # NOTE: the build number is the GitHub Actions run number of the release
   # job, not something derived from the tag or from pubspec.yaml. Read it off
   # the published asset's filename rather than assuming it increments by one.
-  version "0.3.6,21"
-  sha256 "1c81ea60305da6d188883e05e33771329a92b325e40714edab63fd9a19cf2022"
+  version "0.3.7,22"
+  sha256 "29c1ab0e463af9360725e3f3340ad23b9d15199577f2c9434ef92e2c6b546179"
 
   url "https://github.com/golden-browser/homebrew-tap/releases/download/v#{version.csv.first}/golden-browser-#{version.csv.first}+#{version.csv.second}-macos.zip"
   name "Golden Browser"

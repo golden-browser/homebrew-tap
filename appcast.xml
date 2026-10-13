@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Golden Browser</title>
+    <item>
+      <title>0.3.7</title>
+      <pubDate>Tue, 13 Oct 2026 20:27:10 GMT</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>0.3.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.3.7</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### New
+
+- **Updates from inside the app** — when a new version is out, a button appears next to **Back to projects**, or next to Settings on the welcome and sign-in screens. It shows what's new, downloads the update in the background, and installs it when you restart Golden Browser, or the next time you quit. This version still needs `brew upgrade --cask golden-browser`; later ones arrive in the app.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.3.7/golden-browser-0.3.7%2B22-macos.zip" length="20463230" type="application/octet-stream" sparkle:edSignature="4YmUwwEGp7lMHH1Eu4sGG1LNSbY5gm7QEfSBRlxqIJkuQ8tX3JA2HaBBmbWLMH+VFg9ZrX4x73MNSDAEUgprAQ=="/>
+    </item>
+  </channel>
+</rss>
