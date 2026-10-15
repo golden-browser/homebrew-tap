@@ -3,6 +3,40 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.4.0</title>
+      <pubDate>Thu, 15 Oct 2026 11:07:11 GMT</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.4.0</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### New
+
+- **Grid view** — see many goldens side by side in place of the preview: a golden's variants, every golden in a folder, or all of them with **Grid overview** at the top of the sidebar, which also shows as you move onto it, like a golden does. Open the grid with **G**, the **Grid** button at the end of the preview toolbar, a folder's grid button, or a right-click menu. While it's open the grid follows the sidebar — click or W/S onto a folder or a golden and the grid shows it — until **G**, **Esc** or **Close grid**. Click a tile to open that image in the preview.
+- The grid has its own timeline: every commit that changed its goldens, with how many changed between the chips. Pick A and B there to see each tile at A, its change against B beside its name, and the diff overlay and **Find diff pixels** on every tile.
+- **Grid in review mode** — the grid shows a review's changed images, compared between the review's two sides. A deleted golden shows faded at its old version.
+- **LFS goldens in the grid** — a tile that isn't downloaded has a **Load** button, and a bar above the grid offers **Load all** and **Always load in this project**.
+- **Hold ⌥, ⌘ or ⌃ to see shortcuts** — after half a second, every button with a shortcut shows its keys underneath, and the sidebar, timeline, preview and grid list the keys that act on them, until you let go.
+- **Sort the grid** from the first buttons in its toolbar, or cycle with **R**: as in the sidebar, changed first, or biggest change first, where added and deleted images lead and a golden's variants can part.
+- The single preview now has the diff overlay (mask or only the differing pixels), **Find diff pixels** and the crosshair, like side-by-side.
+
+### Improved
+
+- **Q** / **E** keep the selected commit in the middle of the timeline, together with B while you compare against it.
+- **Enter** now also expands and collapses the focused folder, like **Space**, and both open Grid overview when it's focused.
+- The crosshair always snaps to image pixels, so there's one crosshair button instead of smooth and pixel-snap ones, and **X** turns it on and off.
+- The branch picker works from the keyboard: **↑** / **↓** move through branches and tags, or the search's matches, and **Enter** picks one.
+- The branch button gives its whole width to the branch name, with HEAD as a small badge on its corner; in the picker, HEAD sits at the end of its row, where a remote's name does.
+
+### Fixed
+
+- Switching branches could break the sidebar with errors until the app was restarted.
+- Switching back to the app reloaded what it showed every time, visibly; it now refreshes only when the repo changed meanwhile.
+- With thousands of goldens, Grid overview's timeline and sorting by biggest change no longer freeze the app.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.4.0/golden-browser-0.4.0%2B23-macos.zip" length="20634130" type="application/octet-stream" sparkle:edSignature="+GpP7654VKRT7DrMKUj8FXT0TsMOvhuoUGoKCoGVgyi8N2gsv8BjrwOkcNJabqHInijNG/ILc/JlAagYB/RhAQ=="/>
+    </item>
+    <item>
       <title>0.3.7</title>
       <pubDate>Tue, 13 Oct 2026 20:27:10 GMT</pubDate>
       <sparkle:version>22</sparkle:version>
