@@ -28,9 +28,8 @@ cask "golden-browser" do
   #   regex(/golden-browser[._-]v?(\d+(?:\.\d+)+\+\d+)-macos\.zip/i)
   # end
 
-  # Pixel diffing is delegated to odiff, so Homebrew pulls it in for us.
-  depends_on formula: "odiff"
-  depends_on macos: :monterey
+  # odiff ships inside the app (Contents/Helpers) from 0.5.0 on.
+  depends_on macos: :ventura
 
   app "Golden Browser.app"
 
