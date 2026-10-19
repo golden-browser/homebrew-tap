@@ -3,6 +3,20 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.5.1</title>
+      <pubDate>Mon, 19 Oct 2026 20:40:58 GMT</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.5.1</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### Improved
+
+- While you sign in, the app shows a short code. Check that your browser shows the same code before you click **Connect this device**, so you only ever connect your own sign-in.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.5.1/golden-browser-0.5.1%2B25-macos.zip" length="23046185" type="application/octet-stream" sparkle:edSignature="IDitzuAJp8o+2fAc5f1c7FxeQAo6S6tAXYCWFZ3U95bsKm6PY3ZtsJiyj+c3YDH9NCFFTmpTOmLwJvsN8PL/DA=="/>
+    </item>
+    <item>
       <title>0.5.0</title>
       <pubDate>Mon, 19 Oct 2026 20:16:00 GMT</pubDate>
       <sparkle:version>24</sparkle:version>
