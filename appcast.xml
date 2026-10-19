@@ -3,6 +3,35 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.5.0</title>
+      <pubDate>Mon, 19 Oct 2026 20:16:00 GMT</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.5.0</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+**Requires macOS 13 Ventura or later.** Macs on macOS 12 stay on 0.4.0.
+
+### New
+
+- **odiff comes with the app** — pixel diffs and the timeline's change indicators work out of the box, without installing odiff from Homebrew.
+- **About and Acknowledgements** — the Golden Browser menu now has **About** (the version, and links to the website, terms and privacy policy) and **Acknowledgements** (the open-source software inside the app and its licences), plus **Settings…**, **Hide** and **Quit**. The links to the terms and privacy policy are also under Settings → Account.
+- **⌘,** opens Settings; holding **⌘** shows it on the settings button.
+
+### Improved
+
+- Signing out frees this Mac's place in your account's machine limit, so you can sign in on another Mac straight away, without signing this one out on the website.
+- Your sign-in is kept in the macOS Keychain.
+- When the app can't confirm your licence, the lock screen says why: the licence server can't be reached, the app is too old for your licence, your Mac's clock is off, or the licence couldn't be verified. A failed sign-in is explained in plain words.
+
+### Fixed
+
+- After signing in, the menu bar had no **Quit**, **Hide** or **About**, and **⌘Q** did nothing.
+- The licence is checked again when it expires, even if the app stays open in front the whole time.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.5.0/golden-browser-0.5.0%2B24-macos.zip" length="23033402" type="application/octet-stream" sparkle:edSignature="IbE0955clVGaq3/wrkr5v4tddr6pjd5WUUlaYy8LP45lFh8C/2Ln6r4OeoElOTzAs5I3HUd01pVQDwdkfI6PCA=="/>
+    </item>
+    <item>
       <title>0.4.0</title>
       <pubDate>Thu, 15 Oct 2026 11:07:11 GMT</pubDate>
       <sparkle:version>23</sparkle:version>
