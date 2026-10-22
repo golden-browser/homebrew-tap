@@ -3,6 +3,26 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.6.0</title>
+      <pubDate>Thu, 22 Oct 2026 19:06:38 GMT</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.6.0</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### New
+
+- **Help improve Golden Browser, if you want to** — after you sign in, the app asks once whether it may send crash reports and anonymous usage statistics, and switch on new features for you as they're rolled out gradually. You can change your answer in Settings, and nothing is sent without a yes. File paths are removed first, and nothing from your repositories or images is sent.
+
+### Fixed
+
+- Installing odiff while the app is open takes effect when you come back to it: the warning goes away and the diffs that failed fill in, without a restart.
+- The grid now says when odiff is missing, and with **Only differing pixels** a tile that couldn't be diffed says so instead of looking unchanged.
+- If the odiff that comes with the app can't run, the warning says to reinstall Golden Browser instead of suggesting Homebrew.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.6.0/golden-browser-0.6.0%2B26-macos.zip" length="24500825" type="application/octet-stream" sparkle:edSignature="52iyMnzo+blecyPrFzXeV1it792acRoRGpxsIXbaFfJ5emxRDMI2x6HPsOT/G5uKgnPOuM1YekOTeau55zj+AQ=="/>
+    </item>
+    <item>
       <title>0.5.1</title>
       <pubDate>Mon, 19 Oct 2026 20:40:58 GMT</pubDate>
       <sparkle:version>25</sparkle:version>
