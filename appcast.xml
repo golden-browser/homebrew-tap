@@ -3,6 +3,27 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.6.1</title>
+      <pubDate>Sun, 25 Oct 2026 11:04:33 GMT</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.6.1</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### Changed
+
+- If you agreed to help improve Golden Browser, the usage statistics now include which features you use and whether you reach them with the keyboard, a menu or a click: for example that you used the slider or opened the grid. Never what you were looking at: no file names, branches or pull requests.
+- The crosshair is now one button in the toolbar and one item in the View menu that switch it on and off, like Find Diff Pixels, instead of separate On and Off.
+- The View menu marks what's on with a tick instead of a bullet.
+
+### Fixed
+
+- Starting a review while the pull request list was still loading no longer causes an error in the background.
+- Changing the pull request filter while the list was loading no longer mixes in pull requests from the previous filter.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.6.1/golden-browser-0.6.1%2B27-macos.zip" length="24535369" type="application/octet-stream" sparkle:edSignature="Y8mOgqZSub3q9VZHCsVO/ZpBPLgi3vBh6hQ3z8zvQRFuTnag52l/48C0FspSNnoHFoN1v1p+eRePYt++4X8/AA=="/>
+    </item>
+    <item>
       <title>0.6.0</title>
       <pubDate>Thu, 22 Oct 2026 19:06:38 GMT</pubDate>
       <sparkle:version>26</sparkle:version>

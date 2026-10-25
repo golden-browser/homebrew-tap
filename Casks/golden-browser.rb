@@ -8,8 +8,8 @@ cask "golden-browser" do
   # NOTE: the build number is the GitHub Actions run number of the release
   # job, not something derived from the tag or from pubspec.yaml. Read it off
   # the published asset's filename rather than assuming it increments by one.
-  version "0.6.0,26"
-  sha256 "1e71fe1afaaceaf387b6991d25c18e75e9d973c9eae80b9460771c41b36a32b5"
+  version "0.6.1,27"
+  sha256 "09dad30fc89fb2787a10b61a2a22653ac0ee5130b1f1533493a046de708afd13"
 
   auto_updates true
 
