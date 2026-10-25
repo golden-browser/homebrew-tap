@@ -3,6 +3,28 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.7.0</title>
+      <pubDate>Sun, 25 Oct 2026 21:31:15 GMT</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.7.0</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### Improved
+
+- Dates and times follow your Mac's region and the date format chosen in System Settings, such as day-first dates and a 24-hour clock, instead of always the US style: on the timeline, in commit details, the branch picker, recent projects and Settings.
+- Swift snapshots (`__Snapshots__`) and Android Compose screenshot tests (`screenshotTest…`) show up without changing any settings, next to Flutter goldens and Paparazzi snapshots under `test/`. Projects still on the old Flutter-only default switch to the new one. **Goldens globs** in Project settings now takes several patterns, one per line.
+
+### Fixed
+
+- While Settings or another dialog is open, keyboard shortcuts and the menu bar no longer act on the app behind it: for example, G no longer opens the grid after you've clicked out of a field in Settings.
+- The grid's toolbar no longer cuts its title and what it shows ("latest", "vs …") short while there's room for them.
+- The grid's timeline follows renamed and moved goldens, as a golden's own timeline does: it shows the commits from before the rename, and picking one shows the golden as it was then. Before, its history stopped at the rename. A tile whose golden was only renamed between A and B says **renamed** instead of `=`, and hovering over its change shows the golden's name at A and at B.
+- The welcome screen says Golden Browser is for Flutter golden, Swift snapshot and Android screenshot tests, not only Flutter, and the Open dialog no longer asks for a Flutter project.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.7.0/golden-browser-0.7.0%2B29-macos.zip" length="24559077" type="application/octet-stream" sparkle:edSignature="0TG/oqL54O5dQ27sqGpfdMh6rw6hbCs16+5oO6kmbbbRFj1YgxRoSnF7jJtYTJon1ckAXhpahHAebr3YQaOXAQ=="/>
+    </item>
+    <item>
       <title>0.6.2</title>
       <pubDate>Sun, 25 Oct 2026 11:23:39 GMT</pubDate>
       <sparkle:version>28</sparkle:version>
