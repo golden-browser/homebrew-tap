@@ -3,6 +3,24 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.8.0</title>
+      <pubDate>Wed, 28 Oct 2026 21:40:07 GMT</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.8.0</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### Improved
+
+- A slider in the grid's toolbar, or + and − on the keyboard, sets how big the thumbnails are, from small enough to see many goldens at once to large enough to check details, and the grid remembers it.
+- The sidebar takes less indent: a folder holding only another folder shows as one row, like `pages/home`, and a folder holding only one golden shows as that golden, with a folder of pictures for its icon: `other/login`, or just `files` when the golden is named like its folder.
+- While you type a variant pattern in Settings, it shows how many goldens it gives variants and how many images they hold, so you can tell it matches before saving.
+- Counts read the same everywhere, goldens and the images they hold: "12 goldens (31 images)" in the sidebar, the grid and Settings, and "3 images changed" on the timeline. The grid's toolbar shows just that, without which commits it compares.
+- The breadcrumbs above the preview show what the grid shows while it's open, and each one opens the grid there: the project the Grid overview, a folder its goldens, a golden its variants.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.8.0/golden-browser-0.8.0%2B30-macos.zip" length="24586309" type="application/octet-stream" sparkle:edSignature="flFQgn/7iLO1dGccvBxgX10e0G7cUAu7aWuhWWVlpabYKu4SXTUcBTJ5WRzQVBdCfkV711g9HlKH+fC6Z/aGBQ=="/>
+    </item>
+    <item>
       <title>0.7.0</title>
       <pubDate>Sun, 25 Oct 2026 21:31:15 GMT</pubDate>
       <sparkle:version>29</sparkle:version>
