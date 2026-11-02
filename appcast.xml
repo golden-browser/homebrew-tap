@@ -3,6 +3,23 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.8.1</title>
+      <pubDate>Mon, 02 Nov 2026 08:50:24 GMT</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.8.1</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### Fixed
+
+- When security software such as Santa blocks the odiff that comes with the app, it uses odiff from Homebrew instead, and asks to start the blocked one only once per launch instead of on every diff.
+- Comparing images of different sizes no longer shows changes above 100%, such as "890880%": the share is now of the bigger image.
+- When an update can't install, for example because security software blocks Sparkle's installer, the popover offers the Homebrew command that updates instead, with a button to copy it.
+- Each tick of the grid's thumbnail size slider gives a different size; at some window widths, two neighbouring ticks gave the same.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.8.1/golden-browser-0.8.1%2B31-macos.zip" length="24585888" type="application/octet-stream" sparkle:edSignature="+uafPjHC0y4UscOa2KoH7RK+jYPZ4GrzfkeDdGw4j0aiCP9XRJfo4LqRpxZsKbw/Ho/KeLld0LpK3JmWRg0DBg=="/>
+    </item>
+    <item>
       <title>0.8.0</title>
       <pubDate>Wed, 28 Oct 2026 21:40:07 GMT</pubDate>
       <sparkle:version>30</sparkle:version>
