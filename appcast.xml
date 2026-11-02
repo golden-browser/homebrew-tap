@@ -3,6 +3,20 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.8.2</title>
+      <pubDate>Mon, 02 Nov 2026 09:45:02 GMT</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.8.2</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### Fixed
+
+- Typing a variant pattern in Settings no longer breaks the dialog partway through: any pattern that compiles works, with or without a `(?<variant>…)` group, and a match that would leave a golden without a name keeps the file as it is.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.8.2/golden-browser-0.8.2%2B32-macos.zip" length="24586714" type="application/octet-stream" sparkle:edSignature="L9Qadusw0mx3Fp+c9QGPafMOnfFS9I9qzy0nc49dQ+Xava3sKsU3Bu8yJYUDsP0zBBK9Mmb0QKcjLf6B5W2SDQ=="/>
+    </item>
+    <item>
       <title>0.8.1</title>
       <pubDate>Mon, 02 Nov 2026 08:50:24 GMT</pubDate>
       <sparkle:version>31</sparkle:version>
