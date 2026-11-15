@@ -3,6 +3,20 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.8.3</title>
+      <pubDate>Sun, 15 Nov 2026 09:20:53 GMT</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.8.3</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### Fixed
+
+- Reviewing a pull request that adds or changes a variant now shows all of that golden's variants, in the preview's chips and in the grid, so you can compare a new variant with the ones already there. The ones the review didn't change are dimmed, opening a golden still lands on a variant that changed, and counts still count only changed images.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.8.3/golden-browser-0.8.3%2B33-macos.zip" length="24616519" type="application/octet-stream" sparkle:edSignature="qihAsnRudCkC9EDvFBXTgE4E4RYU3nWQVAK1bS7h5hsuRJ7hfIU7VH1gefaAmtUmoFJYgzxvLKtFYNZNdsH4CA=="/>
+    </item>
+    <item>
       <title>0.8.2</title>
       <pubDate>Mon, 02 Nov 2026 09:45:02 GMT</pubDate>
       <sparkle:version>32</sparkle:version>
