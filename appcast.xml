@@ -3,6 +3,33 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.9.0</title>
+      <pubDate>Mon, 16 Nov 2026 19:12:14 GMT</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.9.0</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### Added
+
+- Right-click the diff mask button, in the preview or the grid, to set how opaque the mask is over the golden, and tap the colour dot beside the slider to paint changed pixels red, green or blue. Both are also in Settings and are remembered. Changing them doesn't diff the images again.
+- Search the pull requests in the review dialog: type a number, words from the title, an author or a branch. The list filters as you type, and GitHub and GitLab are searched too, so it finds pull requests the list hasn't loaded, and on GitHub its search syntax works too, such as `author:alice is:merged`. Type a number and press Enter to open that pull request straight away. Azure DevOps can only find a pull request by its number, so there the field takes just that.
+- The review dialog shows the pull requests it loaded last time at once and refreshes them in the background. A refresh button next to the filter reloads them.
+
+### Changed
+
+- The review dialog is taller and wider, and keeps its size while the pull requests load, so nothing jumps. Quick and Custom are at the top, and the pull request list fills the rest, showing when each was last updated. Its rows no longer show a tooltip that covered the titles.
+- When a golden's variant chips don't fit in the preview toolbar, they move under it, as wide as the preview, and wrap onto more lines so you can see all of them at once. If they'd take more than a third of the preview's height, they scroll up and down there. A few short variants stay in the toolbar as before.
+
+### Fixed
+
+- Starting a review while the grid is open now shows the loader over the grid, so switching from one review to another no longer looks frozen while the pull request is fetched. Messages such as a review that couldn't start show over the grid too.
+- Reviewing a pull request that merged a newer base branch than your clone has fetched no longer shows the base branch's changes as the pull request's. The review now compares against the base commit your git host uses, fetching it when your clone doesn't have it, as the host's own "Files changed" does.
+- Pressing G, or the Grid button, while no golden is selected now opens the grid on every golden, as when a review has just started, instead of doing nothing.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.9.0/golden-browser-0.9.0%2B35-macos.zip" length="24832960" type="application/octet-stream" sparkle:edSignature="KVd2o2e/0EnzD2fcdPj00Ttsnw740ufnGKWygWk+vjbxfPnarJFm/ICMivbnocH2NZs7ToGoVKInRgKjS8s6BA=="/>
+    </item>
+    <item>
       <title>0.8.4</title>
       <pubDate>Sun, 15 Nov 2026 12:43:14 GMT</pubDate>
       <sparkle:version>34</sparkle:version>
