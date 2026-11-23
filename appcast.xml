@@ -3,6 +3,44 @@
   <channel>
     <title>Golden Browser</title>
     <item>
+      <title>0.10.0</title>
+      <pubDate>Mon, 23 Nov 2026 17:02:42 GMT</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://github.com/golden-browser/homebrew-tap/releases/tag/v0.10.0</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[
+### Added
+
+- A brand new review mode: start a review from the top of the window, tick goldens off as viewed or flag them to come back to, and see a PR's new commits as they land.
+
+- Review leads the window: a "Review" button (⌘R) sits before the breadcrumbs, with "Review N uncommitted images" beside it while there are some. During a review they become "Close review" and a button to review something else.
+
+- During a review, a review pane takes the timeline's place. It says what's compared and how many goldens are viewed and flagged, and has a flag button and "Mark viewed", which marks the selected golden and goes to the next unviewed one down the sidebar.
+
+- A review's goldens can be marked viewed or flagged: with the mark at the start of each sidebar row (click to mark viewed, right-click to flag), the review pane's buttons, or V and F. Folders count their marked goldens, and grid tiles show each golden's mark. Marks are kept between launches, and a golden that changes loses its mark.
+
+- All, Unviewed and Flagged over the sidebar narrow a review's goldens by their marks. A tab with nothing in it says so.
+
+- While a PR is reviewed and the app is in front, the PR is checked for newer commits every 2 minutes, with your own gh, glab or az. The review pane then offers "New commits", which reviews the PR at its new head; goldens the new commits didn't change keep their marks.
+
+- The review pane's ⋮ menu can check a PR for new commits now, open it on GitHub, GitLab or Azure DevOps, and reset the review's marks.
+
+- A review that was on when its project closed starts again when the project reopens.
+
+### Changed
+
+- The sidebar header is one button showing the ref being browsed, and the project settings button sits after "Back to projects".
+
+- Tooltips show keyboard shortcuts in a small badge, with a keyboard icon and the keys in monospace, so a shortcut like 3 can't be read as part of the text. "Back to projects" has a tooltip with ⌘W.
+
+- In the review dialog, the down arrow moves from the search field to the list below it.
+
+- Where goldens have variants, a review's count under the sidebar always says how many images changed, not only how many goldens.
+]]></description>
+      <enclosure url="https://github.com/golden-browser/homebrew-tap/releases/download/v0.10.0/golden-browser-0.10.0%2B37-macos.zip" length="24914792" type="application/octet-stream" sparkle:edSignature="frOIDrGQKr7DIzxFYQL0YruDpxQTIlwpAKejPSaWxbroWFE02/H9B5H5OmHtIxmF8EcxJPw8MVG1PX1fQkzkDA=="/>
+    </item>
+    <item>
       <title>0.9.1</title>
       <pubDate>Mon, 23 Nov 2026 07:19:41 GMT</pubDate>
       <sparkle:version>36</sparkle:version>
